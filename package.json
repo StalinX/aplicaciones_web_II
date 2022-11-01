@@ -1,0 +1,16 @@
+{
+  "name": "aplicaciones_web_ii",
+  "version": "1.0.0",
+  "description": "Fundamentos de NODEJS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "NODEJS",
+    "JAVASCRIPT",
+    "NPM"
+  ],
+  "author": "Stalin Riofrio",
+  "license": "ISC"
+}
