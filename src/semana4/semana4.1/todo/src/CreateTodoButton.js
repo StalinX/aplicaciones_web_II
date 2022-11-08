@@ -1,11 +1,11 @@
 import React from "react";
-
+import './CreateTodoButton.css'
 
 
 
 function CreateTodoButton(){
     return (
-      <button>Añadir Tarea</button>  
+      <div className="button1"><button className="button">Añadir Tarea</button>  </div>
     );
 }
 

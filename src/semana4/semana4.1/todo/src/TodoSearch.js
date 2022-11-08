@@ -1,6 +1,12 @@
 import React from "react";
+import './TodoSearch.css'
 
-const TodoSearch = () => <input placeholder= "Aqui mi tarea"/>
-
+function TodoSearch(){
+    return (
+        <div className="TodoSearch1">
+        <input className="TodoSearch" placeholder="Aqui mi tarea" />
+        </div>
+    )
+}
 //export default TodoCounter
-export {TodoSearch} 
+export { TodoSearch } 
