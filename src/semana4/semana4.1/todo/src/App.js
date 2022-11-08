@@ -3,6 +3,7 @@ import {TodoCounter} from "./TodoCounter";
 import {TodoSearch} from "./TodoSearch";
 import { TodoList } from "./TodoList";
 import { TodoItem } from "./TodoItem";
+import { CreateTodoButton} from "./CreateTodoButton"
 
 const todos = [
   {description:'Aprebnder REact', completed: false},
@@ -25,7 +26,7 @@ function App() {
         ))}
         
       </TodoList>
-      <CreateTodoButton></CreateTodoButton>
+      <CreateTodoButton/>
    </>
   );
 }
