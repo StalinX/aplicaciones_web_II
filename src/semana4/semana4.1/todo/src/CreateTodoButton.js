@@ -2,11 +2,16 @@ import React from "react";
 import './CreateTodoButton.css'
 
 
-
-function CreateTodoButton(){
-    return (
-      <div className="button1"><button className="button">Añadir Tarea</button>  </div>
-    );
+const onClick = () => {
+  return alert("Hola");
 }
 
+const CreateTodoButton = ()=>(
+  <section className="addtodo">
+    <button className="buttonadd" type="Submit"
+      onClick={() =>{
+        onClick();
+}}> Anadir Tarea</button>
+  </section >
+)
 export { CreateTodoButton }
